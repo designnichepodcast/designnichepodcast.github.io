@@ -76,6 +76,7 @@
             font-size: 75px;
             color: black;
             font-family: 'Abril Fatface', cursive;
+            line-height: 100px;
 
         }
 
@@ -84,7 +85,7 @@
         h2 {
             font-size: 30px;
             color: black;
-
+            line-height: 40px;
             font-family: 'Abril Fatface', cursive;
 
         }
@@ -166,14 +167,14 @@
         }
 
 
-
-
         .container {
             text-align: center!important;
         }
 
-
-
+        
+        #intro {
+            padding-top: .4em;
+        }
 
 
 
@@ -195,15 +196,17 @@
             font-family: 'IBM Plex Mono', monospace;
             font-weight: 600;
             transition: 0.4s;
+            -webkit-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
+            -moz-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
+            box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
 
         }
 
         .btn_mini:hover {
-            background-color: #FFD140;
-            border: #FFD140 solid 2px;
-            color: #5800FF;
             cursor: pointer;
-            top: -3px;
+            -webkit-box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
+            -moz-box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
+            box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
         }
 
 
@@ -212,7 +215,7 @@
             position: relative;
             top: 0;
             transition: top ease 0.4s;
-            background-color: transparent;
+            background-color: white;
             border: #5800FF solid 2px;
             color: #5800FF;
             padding: 10px 25px;
@@ -222,16 +225,17 @@
             font-size: 14px;
             font-family: 'IBM Plex Mono', monospace;
             font-weight: 600;
-
             transition: 0.4s;
+            -webkit-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
+            -moz-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
+            box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
         }
 
         .btn_secondary:hover {
-            background-color: #FFD140;
-            border: #FFD140 solid 2px;
-            color: #5800FF;
             cursor: pointer;
-            top: -3px;
+            -webkit-box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
+            -moz-box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
+            box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
         }
 
 
@@ -241,10 +245,8 @@
 
         /*-------- PILLS --------*/
 
-        
-        
         .pill {
-            background-color:rgba(241,241,241,0.7);
+            background-color: rgba(241, 241, 241, 0.7);
             font-family: 'IBM Plex Mono', monospace;
             font-size: 12px;
             border: none;
@@ -442,6 +444,11 @@
 
             h1 {
                 font-size: 55px;
+                line-height: 65px;
+            }
+            
+            h2 {
+                margin-bottom: 1em;
             }
 
 
@@ -464,22 +471,20 @@
             .btn_mini {
                 margin-bottom: 1em;
             }
-
+            
+           
 
 
         }
 
 
-    
-        
+
+
         @media (max-width: 590px) {
             .container {
-            max-width: 85%;
-        }
-              body {
-            background-image: none;
-          
-        }
+                max-width: 85%;
+            }
+            
             
         }
 
@@ -488,6 +493,8 @@
             .btn_mini {
                 margin-bottom: 1em;
             }
+            
+            
         }
 
 
@@ -555,7 +562,7 @@
                   
         
         
-        <h3>Learn how designers <i>develop</i> their passion, expertise, and niche in the world of design.</h3>
+        <h3 id="intro">Learn how designers <i>develop</i> their passion, expertise, and niche in the world of design.</h3>
                 
                 <div class="smspacer"></div>
 
@@ -650,11 +657,11 @@
 
             <div class="xsspacer"></div>
 
-            <audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+             <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
 
 
             </span>
