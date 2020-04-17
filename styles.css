@@ -1,380 +1,383 @@
  /*-------- TYPOGRAPHY --------*/
 
-        body {
-            background-image: url(dottedv2.png);
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            margin: -1.5em;
+ body {
+     background-image: radial-gradient(lightgray 8%, transparent 8%);
+  background-color: white;
+  background-position: 0 0, 20px 20px;
+  background-size: 20px 20px;
+ }
 
+ h1 {
+     font-size: 75px;
+     color: black;
+     font-family: 'Abril Fatface', cursive;
+     line-height: 100px;
 
-        }
+ }
 
 
-        h1 {
-            font-size: 75px;
-            color: black;
-            font-family: 'Abril Fatface', cursive;
-            line-height: 100px;
 
-        }
+ h2 {
+     font-size: 30px;
+     color: black;
+     line-height: 40px;
+     font-family: 'Abril Fatface', cursive;
+     margin-top: -6px;
 
+ }
 
 
-        h2 {
-            font-size: 30px;
-            color: black;
-            line-height: 40px;
-            font-family: 'Abril Fatface', cursive;
+.flip {
+  
+    width: 75%;
+    margin-left: 3em;
+    margin-top: 1em;
+    
+    transform: scaleX(-1);
+}
 
-        }
 
+ .date {
+     font-size: 12px;
+     color: black;
+     font-family: 'IBM Plex Sans', sans-serif;
 
-        .date {
-            font-size: 12px;
-            color: black;
-            font-family: 'IBM Plex Sans', sans-serif;
+ }
 
-        }
+ .avatarh1 {
+     font-size: 22px;
+     color: black;
 
-        .avatarh1 {
-            font-size: 22px;
-            color: black;
+     font-family: 'Abril Fatface', cursive;
 
-            font-family: 'Abril Fatface', cursive;
+ }
 
-        }
+ .avatarh2 {
+     font-size: 14px;
+     color: black;
+     font-family: 'IBM Plex Sans', sans-serif;
 
-        .avatarh2 {
-            font-size: 14px;
-            color: black;
-            font-family: 'IBM Plex Sans', sans-serif;
+ }
 
-        }
 
 
+ p {
+     font-size: 18px;
+     color: black;
+     font-family: 'IBM Plex Sans', sans-serif;
 
-        p {
-            font-size: 18px;
-            color: black;
-            font-family: 'IBM Plex Sans', sans-serif;
+ }
 
-        }
 
 
 
 
+ .mini_caption {
+     font-size: 12px;
+     color: black;
+     font-family: 'IBM Plex Mono', monospace;
+     font-style: italic;
+     line-height: 20px;
+ }
 
-        .mini_caption {
-            font-size: 12px;
-            color: black;
-            font-family: 'IBM Plex Mono', monospace;
-            font-style: italic;
-            line-height: 20px;
-        }
 
+ h3 {
+     font-size: 22px;
+     color: black;
+     font-family: 'IBM Plex Sans', sans-serif;
 
-        h3 {
-            font-size: 22px;
-            color: black;
-            font-family: 'IBM Plex Sans', sans-serif;
 
+ }
 
-        }
+ h4 {
+     font-family: 'IBM Plex Sans', sans-serif;
+     color: #5800FF;
+     text-transform: uppercase;
+     font-size: 14px;
+     font-weight: bold;
+ }
 
-        h4 {
-            font-family: 'IBM Plex Sans', sans-serif;
-            color: #5800FF;
-            text-transform: uppercase;
-            font-size: 14px;
-            font-weight: bold;
-        }
 
 
+ .line {
+     border: solid #7F7F7F .5px;
 
-        .line {
-            border: solid #7F7F7F .5px;
+ }
 
-        }
 
+ .colorline {
+     border: solid #7F7F7F 1px;
+ }
 
-        .smline {
-            border: #5800FF solid 2px;
-            width: 40px;
-            margin-top: -.1em;
 
-        }
+ .container {
+     text-align: center!important;
+ }
 
 
-        .container {
-            text-align: center!important;
-        }
-
-        
-        #intro {
-            padding-top: .4em;
-        }
+ #intro {
+     padding-top: .4em;
+ }
 
 
 
 
-        .audiocontrols {
-            width: 100%;
-        }
+ .audiocontrols {
+     width: 100%;
+ }
 
 
 
-        /*--------- BUTTONS ---------*/
+ /*--------- BUTTONS ---------*/
 
-        .btn_mini {
-            position: relative;
-            top: 0;
-            transition: top ease 0.4s;
-            background-color: #5800FF;
-            border: #5800FF solid 2px;
-            margin-right: 1em;
-            color: white;
-            padding: 10px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            font-family: 'IBM Plex Mono', monospace;
-            font-weight: 600;
-            transition: 0.4s;
-            -webkit-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-            -moz-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-            box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
+ .btn_mini {
+     position: relative;
+     top: 0;
+     transition: top ease 0.4s;
+     background-color: #5800FF;
+     border: #5800FF solid 2px;
+     margin-right: 1em;
+     color: white;
+     padding: 10px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 14px;
+     font-family: 'IBM Plex Mono', monospace;
+     font-weight: 600;
+     transition: 0.4s;
+     -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+     -moz-box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+     box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
 
-        }
+ }
 
-        .btn_mini:hover {
-            cursor: pointer;
-            -webkit-box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
-            -moz-box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
-            box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
-        }
+ .btn_mini:hover {
+     cursor: pointer;
+     -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
+     -moz-box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
+     box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
+ }
 
 
 
-        .btn_secondary {
-            position: relative;
-            top: 0;
-            transition: top ease 0.4s;
-            background-color: white;
-            border: #5800FF solid 2px;
-            color: #5800FF;
-            padding: 10px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            font-family: 'IBM Plex Mono', monospace;
-            font-weight: 600;
-            transition: 0.4s;
-            -webkit-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-            -moz-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-            box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-        }
+ .btn_secondary {
+     position: relative;
+     top: 0;
+     transition: top ease 0.4s;
+     background-color: white;
+     border: #5800FF solid 2px;
+     color: #5800FF;
+     padding: 10px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 14px;
+     font-family: 'IBM Plex Mono', monospace;
+     font-weight: 600;
+     transition: 0.4s;
+     -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+     -moz-box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+     box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+ }
 
-        .btn_secondary:hover {
-            cursor: pointer;
-            -webkit-box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
-            -moz-box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
-            box-shadow: 0px 0px 0px 0px rgba(255,209,64,1);
-        }
+ .btn_secondary:hover {
+     cursor: pointer;
+     -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
+     -moz-box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
+     box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
+ }
 
 
 
-        .dropshadow {
-            -webkit-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-            -moz-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-            box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
+ .dropshadow {
+     -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+     -moz-box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+     box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
 
-        }
+ }
 
 
 
 
-        /*-------- PILLS --------*/
+ /*-------- PILLS --------*/
 
-        .pill {
-            background-color: rgba(241, 241, 241, 1);
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 12px;
-            border: none;
-            color: black;
-            padding: 6px 12px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            margin-right: 5px;
-            border-radius: 25px;
-            margin-bottom: 1em;
+ .pill {
+     background-color: rgba(241, 241, 241, 1);
+     font-family: 'IBM Plex Mono', monospace;
+     font-size: 12px;
+     border: none;
+     color: #303030;
+     padding: 6px 12px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin-right: 5px;
+     border-radius: 25px;
+     margin-bottom: 1em;
 
 
-        }
+ }
 
 
 
 
 
 
-        /*-------- HOMEPAGE STYLES --------*/
+ /*-------- HOMEPAGE STYLES --------*/
 
-        .avatarimage {
+ .avatarimage {
 
-            width: 65px;
-            float: left;
-            margin-right: 1.5em;
-            -webkit-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-            -moz-box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
-            box-shadow: 5px 5px 0px 0px rgba(255,209,64,1);
+     width: 65px;
+     float: left;
+     margin-right: 1.5em;
+     -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+     -moz-box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
+     box-shadow: 5px 5px 0px 0px rgba(255, 209, 64, 1);
 
 
-        }
+ }
 
 
 
 
 
 
-        ul li {
-            font-size: 16px;
-            font-family: 'IBM Plex Sans', sans-serif;
-        }
+ ul li {
+     font-size: 16px;
+     font-family: 'IBM Plex Sans', sans-serif;
+ }
 
 
-        .me {
-            width: 30%;
-            height: auto;
-        }
+ .me {
+     width: 30%;
+     height: auto;
+ }
 
 
 
-        strong {
-            font-weight: bold;
-        }
+ strong {
+     font-weight: bold;
+ }
 
-        .row {
-            text-align: left;
+ .row {
+     text-align: left;
 
-        }
+ }
 
-        .centered {
-            text-align: center;
+ .centered {
+     text-align: center;
 
-        }
+ }
 
 
 
 
 
 
-        /*-------- SPACERS --------*/
+ /*-------- SPACERS --------*/
 
-        .lgspacer {
-            padding-top: 5em;
+ .lgspacer {
+     padding-top: 5em;
 
-        }
+ }
 
-        .smspacer {
-            padding-top: 2em;
+ .smspacer {
+     padding-top: 2em;
 
-        }
+ }
 
 
-        .xsspacer {
-            padding-top: 1.5em;
+ .xsspacer {
+     padding-top: 1.5em;
 
-        }
+ }
 
 
-        .xxsspacer {
-            padding-top: 1em;
+ .xxsspacer {
+     padding-top: 1em;
 
-        }
+ }
 
 
 
-        .xxxsspacer {
-            padding-top: .2em;
+ .xxxsspacer {
+     padding-top: .2em;
 
-        }
+ }
 
 
-        /*-------- SPACERS --------*/
+ /*-------- SPACERS --------*/
 
-        p i {
-            padding-right: 10px;
-            color: #4d4d4d;
-        }
+ p i {
+     padding-right: 10px;
+     color: #4d4d4d;
+ }
 
 
-        .figcap {
-            padding-top: 10px;
-            font-size: 12px;
-            font-weight: 400;
-            text-align: center;
-            color: black;
-            font-family: 'IBM Plex Mono', monospace;
+ .figcap {
+     padding-top: 10px;
+     font-size: 12px;
+     font-weight: 400;
+     
+     color: black;
+     font-family: 'IBM Plex Mono', monospace;
 
-        }
+ }
 
-        .topnav {
-            overflow: hidden;
+ .topnav {
+     overflow: hidden;
 
-        }
+ }
 
-        .topnav a {
-            float: left;
-            color: black;
-            text-align: center;
-            padding-left: 2em;
-            padding-top: 1em;
-            text-decoration: none;
-            font-size: 20px;
-        }
+ .topnav a {
+     float: left;
+     color: black;
+     text-align: center;
+     padding-left: 2em;
+     padding-top: 1em;
+     text-decoration: none;
+     font-size: 20px;
+ }
 
 
-        ul li {
-            line-height: 35px;
-        }
+ ul li {
+     line-height: 35px;
+ }
 
 
-        /*-------- FOOTER ICON BAR --------*/
+ /*-------- FOOTER ICON BAR --------*/
 
-        .icon {
-            font-size: 20px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
+ .icon {
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
 
 
 
-        .iconbar ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            align-content: center;
+ .iconbar ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     align-content: center;
 
-        }
+ }
 
-        .iconbar i {
-            color: black;
-            transition: color .5s;
-        }
+ .iconbar i {
+     color: black;
+     transition: color .5s;
+ }
 
-        .iconbar i:hover {
-            color: #FFD140;
-        }
+ .iconbar i:hover {
+     color: #FFD140;
+ }
 
 
-        .col-md-12 {
-            margin-top: -10px;
-        }
+ .col-md-12 {
+     margin-top: -10px;
+ }
 
 
 
@@ -382,84 +385,92 @@
 
 
 
-        @media screen and (max-width: 770px) {
-            .content {
-                width: 90%;
-                margin: 0 auto;
-                margin-top: 5em;
-                margin-bottom: 10em;
-            }
+ @media screen and (max-width: 770px) {
+     .content {
+         width: 90%;
+         margin: 0 auto;
+         margin-top: 5em;
+         margin-bottom: 10em;
+     }
 
-            .imagesize {
-                width: 100%;
-                height: auto;
-            }
+     .imagesize {
+         width: 100%;
+         height: auto;
+     }
 
-            .btn_mini {
-                margin-bottom: 1em;
-            }
+     .btn_mini {
+         margin-bottom: 1em;
+     }
 
-            h1 {
-                font-size: 55px;
-                line-height: 65px;
-            }
-            
-            h2 {
-                margin-bottom: 1em;
-            }
+     h1 {
+         font-size: 55px;
+         line-height: 65px;
+     }
 
+     h2 {
+         margin-bottom: 1em;
+     }
 
-        }
 
+ }
 
 
 
 
 
 
-        @media screen and (min-width: 600px) {
-            .content {
-                width: 10%;
-                margin: 0 auto;
-                margin-top: 5em;
-                margin-bottom: 10em;
-            }
 
-            .btn_mini {
-                margin-bottom: 1em;
-            }
-            
-           
+ @media screen and (min-width: 600px) {
+     .content {
+         width: 10%;
+         margin: 0 auto;
+         margin-top: 5em;
+         margin-bottom: 10em;
+     }
 
+     .btn_mini {
+         margin-bottom: 1em;
+     }
 
-        }
 
 
 
+ }
 
-        @media (max-width: 590px) {
-            .container {
-                max-width: 85%;
-            }
-            
-            
-        }
 
 
-        @media screen and (min-width: 900px) {
-            .btn_mini {
-                margin-bottom: 1em;
-            }
-            
-            
-        }
 
+ @media (max-width: 590px) {
+     .container {
+         max-width: 95%;
+     }
+     
+     .mobilespace {
+         padding-top: 2em;;
+     }
+     
+     .figcap {
+         text-align: center;
+     }
 
-        @media screen and (min-width: 1000px) {
-            .content {
-                width: 45%;
-                margin: 0 auto;
-                margin-top: 5em;
-                margin-bottom: 10em;
-            }
-        }
+
+ }
+
+
+ @media screen and (min-width: 900px) {
+     .btn_mini {
+         margin-bottom: 1em;
+     }
+
+
+ }
+
+
+ @media screen and (min-width: 1000px) {
+     .content {
+         width: 45%;
+         margin: 0 auto;
+         margin-top: 5em;
+         margin-bottom: 10em;
+     }
+ }
