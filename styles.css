@@ -10,7 +10,7 @@
  h1 {
      font-size: 75px;
      color: black;
-     font-family: 'Abril Fatface', cursive;
+          font-family: 'Abril Fatface', "Baskerville", cursive; 
      line-height: 100px;
 
  }
@@ -21,7 +21,7 @@
      font-size: 30px;
      color: black;
      line-height: 40px;
-     font-family: 'Abril Fatface', cursive;
+          font-family: 'Abril Fatface', "Baskerville", cursive; 
      margin-top: -6px;
 
  }
