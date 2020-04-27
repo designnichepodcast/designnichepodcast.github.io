@@ -29,9 +29,9 @@
 
 .flip {
   
-    width: 75%;
-    margin-left: 3em;
-    margin-top: 1em;
+    width: 80%;
+    margin-left: 5em;
+    margin-top: 0;
 }
 
 
@@ -152,9 +152,12 @@
 
  .btn_mini:hover {
      cursor: pointer;
-     -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
-     -moz-box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
-     box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
+     border: #5800FF solid 2px;
+     background-color: white;
+     color: #5800FF;
+     -webkit-box-shadow: 5px 5px 0px 0px rgba(88, 0, 255, 1);
+     -moz-box-shadow: 5px 5px 0px 0px rgba(88, 0, 255, 1);
+     box-shadow: 5px 5px 0px 0px rgba(88, 0, 255, 1);
  }
 
 
@@ -181,9 +184,10 @@
 
  .btn_secondary:hover {
      cursor: pointer;
-     -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
-     -moz-box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
-     box-shadow: 0px 0px 0px 0px rgba(255, 209, 64, 1);
+     background-color: rgba(255, 209, 64, 1);
+     -webkit-box-shadow: 5px 5px 0px 0px rgba(88, 0, 255, 1);
+     -moz-box-shadow: 5px 5px 0px 0px rgba(88, 0, 255, 1);
+     box-shadow: 5px 5px 0px 0px rgba(88, 0, 255, 1);
  }
 
 
@@ -450,6 +454,13 @@
      .figcap {
          text-align: center;
      }
+     
+     .flip {
+  
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 2em;
+    }
 
 
  }
@@ -459,7 +470,7 @@
      .btn_mini {
          margin-bottom: 1em;
      }
-
+     
 
  }
 
